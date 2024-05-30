@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:orientation="vertical"
+    tools:context=".AuthActivity">
+
+    <TextView
+        android:id="@+id/auth"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:fontFamily="@font/alike"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="120sp"
+        android:textStyle="bold"
+        android:textSize="@dimen/main_title_size"
+        android:text="@string/main_text_login" />
+
+    <EditText
+        android:id="@+id/email_auth"
+        android:layout_width="220sp"
+        android:fontFamily="@font/alike"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:layout_marginTop="40dp"
+        android:gravity="left"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:hint="Почта" />
+
+    <EditText
+        android:id="@+id/password_auth"
+        android:layout_width="220sp"
+        android:layout_height="50sp"
+        android:fontFamily="@font/alike"
+        android:gravity="left"
+        android:ems="10"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:hint="Пароль"/>
+
+    <Button
+        android:id="@+id/button_auth"
+        android:layout_width="180sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/alike"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/button_text_size"
+        android:text="@string/button_login_enter" />
+
+    <TextView
+        android:id="@+id/register_auth"
+        android:layout_width="320sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150sp"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:gravity="center"
+        android:text="Создать аккаунт"
+        android:textSize="@dimen/new_page_text_size"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Doggy walk</string>
+    <string name="title_activity_main_screen" translatable="false">MainScreenActivity</string>
+
+    <string name="button_login_enter">Войти</string>
+    <string name="main_text_login">Войти в аккаунт</string>
+
+    <string name="text_name">Имя</string>
+    <string name="text_password">Пароль</string>
+    <string name="text_email">Почта</string>
+
+    <string name="button_register_enter">Создать</string>
+    <string name="main_text_register">Регистрация</string>
+
+    <string name="navigation_walk">Прогуляться</string>
+    <string name="navigation_main">Главная</string>
+    <string name="navigation_ask">Попросить</string>
+    <string name="navigation_profile">Профиль</string>
+
+    <string name="button_give_enter">Добавить</string>
+    <string name="title_give">Название</string>
+    <string name="desc_give">Описание</string>
+    <string name="date_give">Дата</string>
+    <string name="active_give_text">Создать объявление</string>
+    <string name="active_home_text">Предложения</string>
+
+
+</resources>

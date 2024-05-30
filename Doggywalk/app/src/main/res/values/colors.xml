@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="main_color">#A5D6A8</color>
+    <color name="light_main_color">#C2EBC5</color>
+
+    <color name="button_color">#2D7174</color>
+    <color name="thirth_color">#DFF2BA</color>
+    <color name="fourth_color">#FFE0C5</color>
+    <color name="turquoise">#67AB9F</color>
+
+
+</resources>

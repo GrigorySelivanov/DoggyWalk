@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:orientation="vertical"
+    tools:context=".ui.walk.WalkFragment">
+
+
+    <TextView
+        android:id="@+id/text_give_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/active_give_text" />
+
+
+    <EditText
+        android:id="@+id/title_give_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_gravity="left"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="@font/alike"
+        android:gravity="left"
+        android:hint="@string/title_give"
+        android:inputType="text"
+        android:textSize="@dimen/edit_text_size" />
+
+    <EditText
+        android:id="@+id/desc_give_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="@font/alike"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:hint="@string/desc_give"
+        android:textSize="@dimen/edit_text_size" />
+
+    <EditText
+        android:id="@+id/date_give_fragment"
+        android:layout_width="220sp"
+        android:layout_height="50sp"
+        android:layout_gravity="left"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="@font/alike"
+        android:gravity="left"
+        android:hint="@string/date_give"
+        android:inputType="datetime"
+        android:textSize="@dimen/edit_text_size" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/main_color"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="30sp"
+        tools:context=".ui.profile.ProfileFragment">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20sp"
+            android:src="@drawable/upload_image"/>
+
+        <Button
+            android:id="@+id/button_Pick_Image"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginVertical="30sp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:backgroundTint="@color/button_color"
+            android:text="Загрузить фото" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/newQueryButton"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/button_color"
+        android:text="@string/button_give_enter" />
+
+</LinearLayout>

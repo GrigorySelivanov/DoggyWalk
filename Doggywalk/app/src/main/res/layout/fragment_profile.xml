@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/main_color"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.profile.ProfileFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/main_color"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:context=".ui.profile.ProfileFragment">
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/user_photo" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:background="@color/main_color"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".ui.profile.ProfileFragment">
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_vertical"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:padding="8dp"
+                android:text="Имя пользователя" />
+
+            <TextView
+                android:id="@+id/profile_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="clip_vertical"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="20sp"
+                android:textSize="25sp"
+                android:padding="8dp"
+                android:text="логин" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/about_you_profile"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20sp"
+        android:textSize="22sp"
+        android:text="О себе:" />
+
+    <EditText
+        android:id="@+id/desc_profile"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:layout_marginTop="20sp"
+        android:gravity="top|start"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical"
+        android:textSize="22sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/phone_number_profile_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="20sp"
+        android:textSize="22sp"
+        android:text="Телефонный номер:" />
+
+        <EditText
+            android:id="@+id/phone_number_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            android:textSize="20sp"
+            android:padding="8dp" />
+
+
+    <Button
+        android:id="@+id/edit_profile_button"
+        android:layout_width="200sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/alike"
+        android:text="Обновить"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

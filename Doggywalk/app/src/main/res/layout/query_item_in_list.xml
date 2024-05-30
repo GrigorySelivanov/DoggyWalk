@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/turquoise"
+    android:layout_marginBottom="20sp">
+
+    <ImageView
+        android:id="@+id/query_list_image"
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:scaleType="centerCrop"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="20sp"
+        app:srcCompat="@drawable/dog_family" />
+
+    <TextView
+        android:id="@+id/query_list_title"
+        android:layout_width="match_parent"
+        android:paddingVertical="10sp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/query_list_desc"
+        android:layout_width="match_parent"
+        android:paddingVertical="10sp"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/query_list_time"
+        android:layout_width="match_parent"
+        android:paddingVertical="10sp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/query_list_button"
+        android:layout_width="180sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/button_color"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginVertical="40sp"
+        android:text="Пойти гулять" />
+</LinearLayout>

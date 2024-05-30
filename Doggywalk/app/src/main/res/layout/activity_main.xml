@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/registration"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="120sp"
+        android:fontFamily="@font/alike"
+        android:gravity="center"
+        android:text="@string/main_text_register"
+        android:textSize="@dimen/main_title_size"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="220sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="@font/alike"
+        android:gravity="left"
+        android:hint="@string/text_name"
+        android:inputType="text"
+        android:textSize="@dimen/edit_text_size" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="220sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="@font/alike"
+        android:gravity="left"
+        android:hint="@string/text_email"
+        android:inputType="textEmailAddress"
+        android:textSize="@dimen/edit_text_size" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="220sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:fontFamily="@font/alike"
+        android:gravity="left"
+        android:hint="@string/text_password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/edit_text_size" />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="180sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button_color"
+        android:fontFamily="@font/alike"
+        android:text="@string/button_register_enter"
+        android:textSize="@dimen/edit_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="320sp"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
+        android:fontFamily="@font/abhaya_libre_extrabold"
+        android:gravity="center"
+        android:text="@string/main_text_login"
+        android:textSize="@dimen/new_page_text_size"
+        android:textStyle="bold" />
+
+</LinearLayout>
